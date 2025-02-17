@@ -11,6 +11,7 @@ redis = "*"
 flask-migrate = "*"
 sqlalchemy-serializer = "*"
 flask-sqlalchemy = "*"
+faker = "*"
 
 [dev-packages]
 
