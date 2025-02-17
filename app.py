@@ -29,6 +29,7 @@ app.route('/items', methods=['POST'])
 
 
 @app.route('/items', methods=['GET'])
+
 # Caching this get items for 5 minutes
 @cache.cached(timeout=300, key_prefix='items')
 def get_items():
